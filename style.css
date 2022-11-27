@@ -129,15 +129,34 @@
 /* ---------------Touch-------------- */
 #Touch {
   background-color: #f8e1db;
+  
 }
 
 .Touch__list {
-  margin-left: 70px;
+ 
+  float: left;
+  width: 100%;
+  
+  
 }
 
-.Touch__items {
+.Touch__items--left{
+ 
   float: left;
   width: 50%;
+  background-image: url(/images/mask.png);
+  background-position: center;
+  padding: 0px 40px;
+  
+}
+.Touch__items--left img{
+  
+}
+
+.Touch__items--right{
+  float: left;
+  width: 46%;
+ 
 }
 
 .Touch__content {
@@ -171,6 +190,11 @@
 }
 .touch__contact i {
   margin-right: 8px;
+}
+
+
+.touch__items--left{
+  background-image:url(./images/mask.png);
 }
 
 footer {
